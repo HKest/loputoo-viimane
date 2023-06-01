@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a0b511d2.css",
+    "main.js": "/static/js/main.d7100afa.js",
+    "static/media/hero.png": "/static/media/hero.fe373b891a732101de89.png",
+    "static/media/action.png": "/static/media/action.bdf5f52b84465a9afbc9.png",
+    "static/media/Rectangle_4.png": "/static/media/Rectangle_4.ca14b697d44c4ab9fe1f.png",
+    "static/media/Rectangle_1.png": "/static/media/Rectangle_1.0b62e616c4e6254e943b.png",
+    "static/media/Rectangle_5.png": "/static/media/Rectangle_5.40655c035381c46cf863.png",
+    "static/media/Rectangle_3.png": "/static/media/Rectangle_3.05bea5ec58f23b78694c.png",
+    "static/media/Rectangle_2.png": "/static/media/Rectangle_2.2c3ad599dbe114af2eb4.png",
+    "static/media/phone-icon.png.png": "/static/media/phone-icon.png.5918be9655ce24c10629.png",
+    "static/media/estonian.png": "/static/media/estonian.016e708a83139c5887c0.png",
+    "static/media/close_icon.svg": "/static/media/close_icon.c04519a71ad6cc98700ec31f76ee1ed6.svg",
+    "index.html": "/index.html",
+    "main.a0b511d2.css.map": "/static/css/main.a0b511d2.css.map",
+    "main.d7100afa.js.map": "/static/js/main.d7100afa.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a0b511d2.css",
+    "static/js/main.d7100afa.js"
+  ]
+}

@@ -1,0 +1,86 @@
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid lightgray;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.product img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.product > div {
+  margin-bottom: 10px;
+}
+
+.buyButton {
+  margin-top: auto;
+  padding: 10px 16px;
+  background-color: orange; /* Set the background color to orange */
+  color: white; /* Set the text color to white */
+}
+
+.ad {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+}
+
+.toast-icon {
+  height: 3px;
+  width: 3px;
+  color: orange;
+}
+
+.toast-container .Toastify__toast-body {
+  font-size: 14px;
+  height: 3px;
+  width: 3px;
+  /* Add any other custom styling as needed */
+}
+
+.buyButton {
+  margin-top: auto;
+  padding: 10px 16px;
+  width: 100%;
+}
+
+.buyIcon {
+  font-size: 14px;
+  /* Adjust font size as needed */
+  /* Add any other custom styling as desired */
+}
+
+
+
+/* HomePage.module.css */
+
+.productGrid {
+  display: grid;
+  gap: 10px;
+  padding: 25px 10px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+@media screen and (max-width: 767px) {
+  .productGrid {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+
+.buyButton {
+  background-color: orange;
+  color: white;
+}
+
+.showMoreButton {
+  color: rgb(229, 227, 224);
+  background-color: orange;
+}

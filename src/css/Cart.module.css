@@ -1,0 +1,121 @@
+.cart-top {
+    margin-top: 50px;
+    margin-left: 10%;
+  }
+  
+  .product-wrapper {
+    margin: 0 10%;
+    border-bottom: 1px solid lightgray;
+    padding: 10px 0;
+  }
+  
+  .product {
+    display: flex; /* sisu vasakult paremale */
+    justify-content: space-between;
+  }
+  
+  .image {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .name {
+    width: 140px;
+  }
+  
+  .price {
+    width: 70px;
+  }
+  
+  .button {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .button:hover {
+    opacity: 0.7;
+    cursor: pointer;
+  }
+  
+  .button:active {
+    padding: 1px;
+  }
+  
+  .quantity {
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+    border: 1px solid lightgray;
+    height: 38px;
+    padding: 3px;
+    border-radius: 18px;
+  }
+  
+  .total {
+    width: 80px;
+  }
+  
+  .cart-bottom {
+    text-align: right;
+    margin-right: 10%;
+  }
+  
+  .disabled {
+    opacity: 0.3;
+    width: 30px;
+    height: 30px;
+  }
+  
+  .sum {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .parcelmachines {
+    width: 200px;
+  }
+  
+  .mobile-view {
+    display: none;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .image {
+      width: 75px;
+      height: 75px;
+    }
+    .total {
+      font-weight: bold;
+    }
+    .quantity {
+      display: none;
+    }
+    .mobile-view {
+      display: flex;
+      justify-content: space-between;
+      width: 130px;
+      border: 1px solid lightgray;
+      height: 59px;
+      padding: 3px;
+      border-radius: 27px;
+      margin-left: 50%;
+      align-items: center;
+      font-size: 20px;
+    }
+    .mobile-view img {
+      height: 50px;
+      width: 50px;
+    }
+  }
+  
+  
+  @media only screen and (max-width: 550px) {
+    .image {
+      width: 50px;
+      height: 50px;
+    }
+
+
+  }
+
+ 
